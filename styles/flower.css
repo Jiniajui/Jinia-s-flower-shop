@@ -1,13 +1,23 @@
 /* common shared styles*/
-
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
     font-family: font-family: 'Lato', sans-serif;
 }
-.btn-primary{
+
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+.section-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.btn-classic{
     background-color: #E55473;
     border-radius: 5px;
     border: 0;
@@ -16,20 +26,26 @@ body{
     font-weight: 700;
     padding: 20px 40px;
 }
+
+/* Header styles*/
+
 .header {
-    background: rgba(229, 84, 115, 0.10) 
-    width: 100vh;
+    background-color: #E55473;
+    margin: auto;
+    padding-bottom: 200px 0;
 }
 
 .banner {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+
 }
 
 .banner-content {
+    align-items: center;
     max-width: 500px;
-    padding: 190px 90px 32px 80px;
+    padding: 0px 50px 0px 100px;
 }
 .banner-title {
     font-family: Lato;
@@ -39,25 +55,221 @@ body{
     font-size: 80px;
     font-style: normal;
     font-weight: 800;
-    line-height: normal;
+    margin: auto;
+    padding-bottom: 15px;
 }
 .banner-paragraph{
     width: 634px;
-    font-family: Lato;
     flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    padding: 32px 0;
+    margin: auto;
+    padding-bottom: 10px;
 }
 
 .banner-img {
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 600px;
     height: 800px;
-    flex-shrink: 0;
-    padding-top: 200px;
+    padding-top: 50px 0 100px;
 
 }
+
+/* Feature styles*/
+
+ .feature{
+    background: #FFF;
+    margin: 0;
+    padding-bottom: 0;
+ }
+
+ .feature-content{
+    text-align: center;
+ }
+ .featured-flowers{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+ }
+ .feature-flower-images{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin: 30px 0;
+
+ }
+ .feature-flower-images1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 30px 0;
+ }
+ .feature-flower-images2{
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 300px 300px 0px 0px;
+    margin: 25px 0;
+ }
+.section-a{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    text-decoration-line: underline;
+}
+
+/*event styles*/
+.section-event{
+    background-color: #FFF;
+    padding: 100px 0;
+}
+.section-event-content{
+    text-align: center;
+}
+
+.section-event-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+.section-event-title{
+    font-size: 30px;
+    margin: auto;
+    padding: 15px;
+}
+
+ /* hot-deal styles*/
+.hot-deal{
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hot-deal-title{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+.hot-deal-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* instagram styles*/
+.instagram{
+    background-color: #FFF;
+}
+
+.instagram-content-img {
+    max-width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 20%;
+    gap: 10px;
+}
+
+/* latest deal styles*/
+    .latest-deal{
+        background: url(../images/Rectangle\ 9.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        max-width: 85%;
+        height: 400px;
+        margin: 100px 177px;
+    }
+    .latest-deal-content{
+        margin: auto;
+    }
+    .latest-deal-title{
+        color: #272727;
+        text-align: center;
+        align-items: center;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .latest-deal-paragraph{
+        color: rgba(39, 39, 39, 0.60);
+        text-align: center;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .latest-deal-email{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .latest-deal-email{
+        width: 800px;
+        height: 400px;
+        border-radius: 6px;
+        padding: 40px 0;
+    }
+    #submit-button{
+        background-color: #E55473;
+        border-radius: 5px;
+        border: 0;
+        color: white;
+        font-size: 16px;
+        width: 90px;
+        height: 22px;
+        color: #FFF;
+}
+
+/* Footer styles*/
+.flowershop{
+    background-color: #111010;
+    height: 500px;
+}
+.flowershop-content{
+    align-items: center;
+    padding: 128px 0;
+}
+.flower-s{
+    color: #E55473;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+}
+.flowershop-title{
+    color:#FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    align-items: center;
+    text-align: center;
+
+}
+.flowershop-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.flowershop-copyright{
+    color: rgba(255, 255, 255, 0.40);
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
